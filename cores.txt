@@ -1,0 +1,17 @@
+Nude
+#FFF8FC
+
+Pale Purple
+#FFE6F3
+
+Verde Claro
+#A1D3C7
+
+Verde Escuro
+#286562
+
+Roxo
+#822243
+
+Roxo Escuro
+#4F2741
