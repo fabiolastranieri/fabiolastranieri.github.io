@@ -189,11 +189,7 @@
 										o engajamento da sua equipe e a história de resultados da sua farmácia”.</h1>
 									<div class="d-block appear-animation" data-appear-animation="fadeInUpShorter"
 										data-appear-animation-delay="300">
-										<a href="https://wa.me/5569984319258?text=Ol%C3%A1%2C+quero+mudar+hist%C3%B3ria+da+minha+farm%C3%A1cia."
-											data-hash data-hash-offset="0" data-hash-offset-lg="100"
-											class="btn btn-modern btn-primary btn-arrow-effect-1 text-capitalize text-2-5 px-5 py-3 anim-hover-translate-top-5px transition-2ms">QUERO
-											MUDAR A HISTÓRIA DA MINHA FARMÁCIA<i
-												class="fas fa-arrow-right ms-2"></i></a>
+										<div id="tripetto"></div>
 									</div>
 									<div class="pt-5 appear-animation" data-appear-animation="fadeInUpShorter"
 										data-appear-animation-delay="400">
@@ -1059,6 +1055,23 @@
 	<script src="js/custom.js"></script>
 	<!-- Theme Initialization Files -->
 	<script src="js/theme.init.js"></script>
+	<script src="https://unpkg.com/tripetto-runner-foundation"></script>
+	<script src="./js/tripetto-runner-classic.js"></script>
+	<script src="https://unpkg.com/tripetto-services"></script>
+	<script>
+	var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoieUhRMzdnekY4b3N1N2xoOTRON2dFb3hBd0JESGlDRXM1Tjh2QlkxZmVIWT0iLCJkZWZpbml0aW9uIjoiaE5MQ1JhbTg1dUVZV2c1b0h0NGpWMXZTcUxta2VPbU4vRGFySUFoaGtZUT0iLCJ0eXBlIjoiY29sbGVjdCJ9.pClZ51-jtR66kdr6GqwGgF7Lr0fZcNGIB0DbcEVBXhg" });
+	
+	TripettoClassic.run({
+		element: document.getElementById("tripetto"),
+		definition: tripetto.definition,
+		styles: tripetto.styles,
+		l10n: tripetto.l10n,
+		locale: tripetto.locale,
+		translations: tripetto.translations,
+		attachments: tripetto.attachments,
+		onSubmit: tripetto.onSubmit
+	});
+	</script>
 
 </body>
 
