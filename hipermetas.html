@@ -101,6 +101,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="card-action d-flex justify-content-center">
+                        <a class="btn btn-xl btn-effect-4 btn-secondary mt-3 text-white" href="#header">QUERO AUMENTAR MEU FATURAMENTO</a>
+                    </div>
 				</div>
 
 				<hr>
@@ -232,7 +235,7 @@
                                 <div class="divider divider-small divider-small-lg mt-0 text-center appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="0" style="animation-delay: 0ms;">
                                     <hr class="bg-primary border-radius m-auto">
                                 </div>
-                                <h2 class="text-color-dark font-weight-bold text-8 pb-4 mb-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">Super Promoção
+                                <h2 class="text-color-dark font-weight-bold text-8 pb-4 mb-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">Super promoção de lançamento
                                 </h2>
                             </div>
                         </div>
@@ -245,9 +248,11 @@
                                     <div class="card-title">
                                         <h3>Mentoria Completa</h3>
                                     </div>
+
                                     <div class="card-price">
-                                        <h1>12X de R$ 37,90</h1>
-                                        <h4>A vista R$ 397,90</h4>
+                                        <del>De R$ 997,90</del>
+                                        <h1>Por <br>12X de <br>R$ 37,90</h1>
+                                        <h4>À vista R$ 397,90</h4>
                                     </div>
                                     <div class="card-description">
                                         <ul>
@@ -257,7 +262,7 @@
                                         </ul>
                                     </div>
                                     <div class="card-action">
-                                        <a class="btn btn-xl btn-effect-4 btn-secondary mt-3 text-white" href="#header">QUERO ENTRAR NA FILA DE ESPERA</a>
+                                        <a class="btn btn-xl btn-effect-4 btn-secondary mt-3 text-white" href="#header">QUERO GARANTIR MINHA VAGA</a>
                                     </div>
                                 </div>
                             </div>
@@ -275,7 +280,7 @@
                             </div>
                         </div>
                         <div class="card-action d-flex justify-content-center">
-                            <a class="btn btn-xl btn-effect-4 btn-secondary mt-3 text-white" href="#header">QUERO CONTRATAR</a>
+                            <a class="btn btn-xl btn-effect-4 btn-secondary mt-3 text-white" href="#header">QUERO GARANTIR MINHA VAGA</a>
                         </div>
                     </div>
                 </section>
@@ -571,8 +576,59 @@
                             </div>
                         </div>
                     </div>
+                    <div class="card-action d-flex justify-content-center">
+                        <a class="btn btn-xl btn-effect-4 btn-secondary mt-3 text-white" href="#header">QUERO AUMENTAR MEU FATURAMENTO</a>
+                    </div>
                 </section>
 			</div> 
+
+
+            <section class="section border-0 bg-transparent m-0">
+                <div class="container">
+                    <div class="col-lg-9 order-1 order-lg-2">
+                        <div class="overflow-hidden mb-1">
+                            <h2 class="font-weight-normal text-7 mb-0"><strong class="font-weight-extra-bold">Formulário</strong></h2>
+                        </div>
+                        <div class="overflow-hidden mb-4 pb-3">
+                            <p class="mb-0">Preencha o formulário, que nossa equipe entrará em contato!</p>
+                        </div>
+                        <form action="http://postmail.invotes.com/send" method="post" id="email_form">
+                            <div class="contact-form-success alert alert-success d-none mt-4" id="contactSuccess">
+                                <strong>Sucesso!</strong> Sua mensagem foi enviada para nós.
+                            </div>
+                        
+                            <div class="contact-form-error alert alert-danger d-none mt-4" id="contactError">
+                                <strong>Erro!</strong> Houve um erro ao enviar a sua mensagem.
+                                <span class="mail-error-message text-1 d-block" id="mailErrorMessage"></span>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group col-lg-6">
+                                    <label class="required font-weight-bold text-dark text-2">Nome</label>
+                                    <input type="text" value="" data-msg-required="Por favor insira seu nome." maxlength="100" class="form-control" name="name" id="name" required="">
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label class="required font-weight-bold text-dark text-2">Email</label>
+                                    <input type="email" value="" data-msg-required="Por favor insira o Email." data-msg-email="Por favor insira um endereço de e-mail válido." maxlength="100" class="form-control" name="email" id="email" required="">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-lg-6">
+                                    <label class="required font-weight-bold text-dark text-2">Telefone</label>
+                                    <input type="text" value="" data-msg-required="Por favor insira o telefone." maxlength="100" class="form-control" name="subject" id="subject" required="">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <input type="submit" value="Enviar" class="btn btn-primary btn-modern" data-loading-text="Loading...">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+
 
 			<footer id="footer" class="mt-0">
 				<div class="footer-copyright footer-copyright-style-2">
