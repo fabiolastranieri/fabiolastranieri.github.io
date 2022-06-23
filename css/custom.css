@@ -235,15 +235,15 @@
     position: absolute;
     display: block;
     width: 160px;
-    padding: 10px 0;
-    background-color: #8d2a4c;
+    padding: 5px 0;
+    background-color: #7bb7a8;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     color: #fff;
     font-size: 13px;
     text-transform: uppercase;
     text-align: center;
-    left: -35px;
-    top: 25px;
+    left: -37px;
+    top: 12px;
     transform: rotate(-45deg);
 }
 
@@ -253,7 +253,7 @@
     z-index: -1;
     content: '';
     display: block;
-    border: 5px solid #822243;
+    border: 5px solid #7bb7a8;
     border-top-color: transparent;
     border-left-color: transparent;
 }
