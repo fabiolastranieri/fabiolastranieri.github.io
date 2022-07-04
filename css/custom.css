@@ -354,9 +354,21 @@
         flex-wrap: nowrap;
         justify-content: center;
     }
+    .mobile-div{
+        display: none;
+    }
+}
+@media (min-width: 768px){
+    .mobile-div-1{
+        display: none;
+    }
+    .desk-bottom{
+        padding-bottom: 300px;
+    }
 }
 
 @media (max-width: 576px){
+    
     body{
         overflow-x: hidden;
     }
