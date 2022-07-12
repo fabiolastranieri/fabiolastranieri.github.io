@@ -374,7 +374,9 @@
 }
 
 @media (max-width: 576px){
-    
+    .video-mobile{
+        width: 100%;
+    }
     body{
         overflow-x: hidden;
     }
