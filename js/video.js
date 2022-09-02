@@ -17,6 +17,19 @@ function onYouTubeIframeAPIReady() {
     });
 
 }
+var player;
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('video2', {
+        height: '380',
+        width: '580',
+        videoId: 'xhhGm2hEDyc',
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+
+}
 
 function onPlayerReady(event) {
     event.target.stopVideo();
