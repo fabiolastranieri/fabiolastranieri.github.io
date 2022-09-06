@@ -182,10 +182,10 @@
 }
 
 .cardp {
-    background: #fff;
+    background: rgb(255, 255, 255);
     border-radius: 3px;
-    box-shadow: 0 1px 1px transparent;
-    width: 40%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 60%;
     float: left;
     margin: 8px;
     padding: 30px;
@@ -225,7 +225,7 @@
 }
 
 .cardp:hover {
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .card-ribbon {
